@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection — replace with your Atlas URI
-const MONGO_URI = "mongodb+srv://<username>:<password>@cluster0.mongodb.net/feedbackDB?retryWrites=true&w=majority";
+const MONGO_URI = "mongodb+srv://Nile:09682690675Ze@cluster0.lwten1g.mongodb.net/feedbackDB?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(MONGO_URI)
     .then(() => console.log("Connected to MongoDB"))
